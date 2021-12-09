@@ -90,8 +90,7 @@ body {
     margin: 0 auto;
     padding: 125px 0 0 0;
 }
-.content-top {
-}
+
 .content-top-head {
     line-height: 40px;
     text-transform: uppercase;
@@ -125,9 +124,34 @@ body {
 .content-top-head-list li:nth-child(4) {
     text-transform: uppercase;
 }
-.content-bottom {
-}
+
 .content-bottom__link {
+    height: 44px;
+    display: inline-block;
+    line-height: 44px;
+    margin: 50px 0 80px 25px;
+    padding: 0 30px;
+    border-radius: 24px;
+    background-color: #80b7b3;
+    box-shadow: 0px 6px 40px 0px rgba(128, 183, 179, 0.54);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
 }
-.content-bottom__text {
+.content-bottom__link::after {
+    content: "";
+    width: 20px;
+    height: 10px;
+    margin: 0px 0px 0 0;
+    display: inline-block;
+    background: url(/img/arrow.png) right no-repeat;
+}
+.content-bottom__text p {
+    margin: 0 0 20px 0;
+}
+.content-bottom__text:first-line {
+    color: red;
+}
+.content-bottom__text p:nth-child(2):first-letter {
+    color: red;
 }
